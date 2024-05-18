@@ -3,8 +3,8 @@
 export default function Exemplo() {
   return (
     <div>
-      <Cabecalho />
-      <Cabecalho />
+      <Cabecalho titulo="Next.js & React"/>
+      <Cabecalho titulo="Aprendendo Next na prática"/>
     </div>
   )
 }
