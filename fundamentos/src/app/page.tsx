@@ -11,9 +11,10 @@ export default function Home() {
       height: '100vh',
 
     }}>
-      <Navegador destino="/estiloso" texto="Estiloso"></Navegador>
-      <Navegador destino="/exemplo" texto="Exemplo" cor="#9400d3"></Navegador>
-      <Navegador destino="/jsx" texto="JSX" cor="crimson"></Navegador>
+      <Navegador texto="Estiloso" destino="/estiloso"></Navegador>
+      <Navegador texto="Exemplo" destino="/exemplo" cor="#9400d3"></Navegador>
+      <Navegador texto="JSX" destino="/jsx" cor="crimson"></Navegador>
+      <Navegador texto="Navegação #01" destino="/navegacao" cor="green"></Navegador>
     </div>
   )
 }
