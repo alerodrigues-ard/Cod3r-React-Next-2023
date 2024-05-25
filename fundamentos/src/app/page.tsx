@@ -14,7 +14,8 @@ export default function Home() {
       <Navegador texto="Estiloso" destino="/estiloso"></Navegador>
       <Navegador texto="Exemplo" destino="/exemplo" cor="#9400d3"></Navegador>
       <Navegador texto="JSX" destino="/jsx" cor="crimson"></Navegador>
-      <Navegador texto="Navegação #01" destino="/navegacao" cor="green"></Navegador>
+      <Navegador texto="Nav #01" destino="/navegacao" cor="green"></Navegador>
+      <Navegador texto="Nav #02" destino="/cliente/sp/Cliente123" cor="blue"></Navegador>
     </div>
   )
 }
