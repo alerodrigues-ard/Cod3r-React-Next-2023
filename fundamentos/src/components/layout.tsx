@@ -1,7 +1,7 @@
 ﻿import Link from "next/link"
 import styles from "../styles/Layout.module.css"
 
-export default function Layout(props) {
+export default function Layout(props: any) {
   return (
     <div className={styles.layout}>
       <div className={styles.cabecalho}>
