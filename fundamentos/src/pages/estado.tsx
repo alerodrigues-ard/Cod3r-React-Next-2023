@@ -1,5 +1,5 @@
 ﻿import { useState } from "react";
-import Layout from "@/components/layout";
+import Layout from "@/components/Layout";
 
 export default function Estado() {
   const [numero, setNumero] = useState(0) // É um React Hook

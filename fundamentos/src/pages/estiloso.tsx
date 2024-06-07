@@ -1,6 +1,6 @@
 ﻿import styles from "../styles/Estiloso.module.css"
 import Link from "next/link" 
-import Layout from "@/components/layout"
+import Layout from "@/components/Layout"
 
 export default function Estiloso() {
 

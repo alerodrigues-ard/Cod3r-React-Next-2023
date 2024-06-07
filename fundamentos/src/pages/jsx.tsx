@@ -1,4 +1,4 @@
-﻿import Layout from "../components/layout"
+﻿import Layout from "../components/Layout"
 
 export default function Jsx() {
   const titulo = <h1>JSX é um conceito central</h1>
