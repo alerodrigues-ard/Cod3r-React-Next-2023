@@ -10,9 +10,9 @@ export default function Jsx() {
     return <h2>{"muito legal".toUpperCase()}</h2>
   }
   return (
-    <Layout titulo="Entendendo o JSX">
   // TODO: Retirar inline style quando passar a usar CSS
-      <div style={{color: color, backgroundColor: background}}>
+    <Layout titulo="Entendendo o JSX">
+      <div>
         {titulo}
         {subtitulo()}
         <p>{JSON.stringify({ nome: "João", idade: 30 })}</p>

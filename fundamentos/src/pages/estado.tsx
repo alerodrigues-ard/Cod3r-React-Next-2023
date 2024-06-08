@@ -10,7 +10,7 @@ export default function Estado() {
   return (
     // TODO: Retirar inline style quando passar a usar CSS
     <Layout titulo="Componente com Estado">
-      <div style={{color: "#fff"}}>
+      <div>
         <div>{numero}</div>
         <button type="button" onClick={incrementar}>Incrementar</button>
       </div>

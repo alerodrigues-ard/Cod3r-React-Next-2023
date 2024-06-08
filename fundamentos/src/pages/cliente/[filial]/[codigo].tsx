@@ -7,7 +7,7 @@ export default function ClientePorCodigo() {
   return (
     // TODO: Retirar inline style quando passar a usar CSS
     <Layout titulo="Navegação Dinâmica">
-      <div style={{ color: "#fff" }}>
+      <div>
         <div>Código: {router.query.codigo}</div>
         <div>Filial: {router.query.filial}</div>
       </div>

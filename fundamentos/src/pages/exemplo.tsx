@@ -9,7 +9,7 @@ export default function Exemplo() {
   return (
     // TODO: Retirar inline style quando passar a usar CSS
     <Layout titulo="Usando Componentes">
-      <div style={{color: color, backgroundColor: background}}>
+      <div>
         <Cabecalho titulo="Next.js & React"/>
         <Cabecalho titulo="Aprendendo Next na prática"/>
       </div>

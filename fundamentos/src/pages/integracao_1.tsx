@@ -21,8 +21,7 @@ export default function Integracao() {
 
   return (
     <Layout>
-      <div style={{color: "#fff"}}>
-
+      <div>
         <div>
           <input type="number" value={codigo}
             onChange={e => setCodigo(e.target.value)}/>
